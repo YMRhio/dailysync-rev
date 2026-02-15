@@ -5,12 +5,12 @@ on:
 
 env:
   BARK_KEY: ${{ secrets.BARK_KEY }}
-  GARMIN_USERNAME: ${{ secrets.3626255675@qq.com }}
-  GARMIN_PASSWORD: ${{ secrets.YuMouRen989 }}
-  GARMIN_GLOBAL_USERNAME: ${{ secrets.497095148@qq.com }}
-  GARMIN_GLOBAL_PASSWORD: ${{ secrets.YuMouRen989 }}
-  GARMIN_MIGRATE_NUM: ${{ secrets.200 }}
-  GARMIN_MIGRATE_START: ${{ secrets.0 }}
+  3626255675@qq.com: ${{ secrets.GARMIN_USERNAME }}
+  YuMouRen989: ${{ secrets.GARMIN_PASSWORD }}
+  497095148@qq.com: ${{ secrets.GARMIN_GLOBAL_USERNAME }}
+  YuMouRen989: ${{ secrets.GARMIN_GLOBAL_PASSWORD }}
+  200: ${{ secrets.GARMIN_MIGRATE_NUM }}
+  0: ${{ secrets.GARMIN_MIGRATE_START }}
 
 jobs:
   build:
